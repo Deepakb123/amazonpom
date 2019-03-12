@@ -1,0 +1,10 @@
+amazonPages\AmazonHomePage.class
+amazonTests\WordpressloginExcel.class
+amazonPages\AmazonLoginPage.class
+amazonPages\AmazonSearchResultsPage.class
+amazonTests\AmazonAddItemtoCart.class
+amazonTests\BaseSetup.class
+amazonTests\AmazonLoginPageTestValidUser.class
+amazonTests\BrowserFactory.class
+utility\ExcelDataConfig.class
+amazonTests\AmazonLoginPageTestInValidUser.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AmazonTestSuite]">
+  <test thread-count="5" name="LoginTest-chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="amazonTests.AmazonLoginPageTestInValidUser">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="invalidUsersignInsignOutTest" invocation-numbers="0 1 2 3"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- amazonTests.AmazonLoginPageTestInValidUser -->
+    </classes>
+  </test> <!-- LoginTest-chrome(failed) -->
+</suite> <!-- Failed suite [AmazonTestSuite] -->
