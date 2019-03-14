@@ -21,7 +21,7 @@ public class AmazonLoginPageTestValidUser extends BaseSetup{
 	loginPage.clickOnHelloSignInDroopDown();
 	
 	//Enter EMail Id
-	loginPage.enterEmail("dipakbcatchme@gmail.com");
+	loginPage.enterEmail("***************");
 	
 	//Click on Continue Button
 	loginPage.clickContinue();
@@ -30,7 +30,7 @@ public class AmazonLoginPageTestValidUser extends BaseSetup{
 	Assert.assertEquals(loginPage.verifyPasswordtextBoxPresent(),true);
 	
 	//Enter Password
-	loginPage.enterPassword("Rachana@12345");
+	loginPage.enterPassword("*************");
 	
 	//Click on submit to login
 	loginPage.submit();
